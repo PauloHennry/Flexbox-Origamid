@@ -20,7 +20,7 @@ img{
 }
 /* Header */
 .header-bg{
-    background: rgb(1, 30, 255);
+    background-color: #1000ff8c;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -66,7 +66,7 @@ nav ul a:hover{
 .h1-conteudo{
     font-size: 64px;
     padding: 36px 0px 43px 20px;
-    margin: 0 auto;
+    margin: 60px auto;
     justify-content: space-around;
     max-width: 1200px;
     font-family: sans-serif;
@@ -78,7 +78,7 @@ nav ul a:hover{
     display: flex;
     justify-content: start;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 60px auto;
     flex-wrap: wrap;
     padding: 0 0 100px 0px;
 }
@@ -113,7 +113,7 @@ nav ul a:hover{
 .produtos{
     text-transform: uppercase;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 60px auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -157,4 +157,183 @@ nav ul a:hover{
 }
 .produtos-item-blue{
     padding: 90px 20px 0px 20px;
+}
+
+
+/* preços */
+
+.precos{
+    width: 100vw;
+    padding: 20px 0 0px 20px;
+    background-color: #0037ff21;;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.precos-items-geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 730px;
+}
+.preco-item{
+    height: 420px;
+    background: rgb(255, 255, 255);
+    margin: 0px 20px 0 20px;
+    width: 430px;
+    display: grid;
+    align-items: center;
+}
+.preco-item-1{
+    height: 420px;
+    background: rgb(255, 255, 255);
+    margin: 40px 20px 0 20px;
+    width: 430px;
+    display: grid;
+    align-items: center;
+    
+}
+.preco-item-2{
+    height: 420px;
+    background: rgb(255, 255, 255);
+    margin: 20px 20px 0 20px;
+    width: 430px;
+    display: grid;
+    align-items: center;
+}
+
+.preco-h2{
+    font-size: 42px;
+    text-transform: uppercase;
+    padding: 20px 0px 20px 20px;
+    font-family: monospace;
+    color: #141414;
+}
+span{
+    font-size: 32px;
+    padding: 0 0px 0px 20px;
+    font-family: serif;
+    width: 100%;
+}
+
+.li-planos{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0 0 0 20px;
+    border-left: 3px solid  #001fff;;
+    margin: 0 0 10px 20px;
+}
+
+.ul-planos{
+    padding: 20px 20px 20px 20px;
+}
+
+.a-comprar{
+    margin: 20px;
+    font-size: 16px;
+    background-color: #1000ff8c;
+    text-transform: uppercase;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    padding: 15px;
+    width: 110px;
+}
+
+/* qualidades */
+
+.qualidade-conteiner{
+    margin:60px auto;
+    max-width: 1200px;
+    justify-content: center;
+    align-self: center;
+    background-color: antiquewhite;
+    height: 500px;
+}
+
+.qualidade{
+    max-width: 1200px;
+    margin: 90px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qualidade-item{
+    flex: 1 1 300px;
+    margin: 25px 10px;
+    border-radius: 0px 34px 0 20px;
+    background: #e8e8ff;
+    height: 260px;
+    align-items: center;
+}
+
+.qualidade-item h2{
+    font-family: monospace;
+    text-transform: uppercase;
+    padding: 20px 0px 20px 20px;
+    font-size: 32px;
+}
+
+.qualidade-h2{
+font-family: monospace;
+    text-transform: uppercase;
+    padding: 20px 0px 20px 20px;
+    font-size: 32px;
+    border-left: 2px solid;
+}
+
+.qualidade-p{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0 0 0 40px;
+    line-height: 1.5;
+    width: 340px;
+    display: block;
+}
+
+/* newsletter */
+
+.newsletter{
+    width: 100vw;
+    margin: 0 auto;
+    height: 200px;
+    background-color: #1000ff42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-p{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 10px 0px 0px;
+}
+
+.newsletter-form{
+    border:1px solid rgb(152 110 255);
+}
+
+input{
+    height: 45px;
+    width: 400px;
+    border:1px solid rgb(152 110 255);
+}
+
+button{
+    height: 45px;
+    margin: 0 0 0 -5px;
+    width: 126px;
+    color: white;
+    background-color: rgb(116, 82, 201);
+    border:1px solid rgb(152 110 255);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
 }
